@@ -6,5 +6,25 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('Build the project'){
+        steps{
+        
+        echo 'Build is ready'
+        }
+        }
+        stage('Testing the build'){
+        steps{
+
+        echo 'Testing of the build is successfull'
+        }
+        }
+        stage('Build deployment'){
+        steps{
+        
+        echo 'Build is successfully deployed'
+        }
+        }
+
     }
+   
 }
