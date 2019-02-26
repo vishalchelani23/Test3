@@ -24,6 +24,13 @@ pipeline {
         echo 'Build is successfully deployed'
         }
         }
+        stage('Build deployment in SIT environment'){
+        steps{
+        
+        echo 'Build is working fine in SIT'
+        }
+        }
+
 
     }
    
