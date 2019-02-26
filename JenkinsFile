@@ -27,7 +27,7 @@ pipeline {
         stage('Post Deployment Activities'){
         steps{
         
-        echo 'Application is working fine in prod environment'
+        echo 'Application is working fine in production environment'
         }
         }
     }
