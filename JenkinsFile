@@ -24,7 +24,12 @@ pipeline {
         echo 'Build is successfully deployed'
         }
         }
-
+        stage('Post Deployment Activities'){
+        steps{
+        
+        echo 'Application is working fine in prod environment'
+        }
+        }
     }
    
 }
