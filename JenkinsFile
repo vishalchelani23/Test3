@@ -24,7 +24,12 @@ pipeline {
         echo 'Build is successfully deployed'
         }
         }
-
+        stage('Post Deployment Activities in developers repository'){
+        steps{
+        
+        echo 'Application is working fine in dev environment'
+        }
+        }
     }
    
 }
