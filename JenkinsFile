@@ -27,7 +27,7 @@ pipeline {
         stage('Post Deployment Activities in developers repository'){
         steps{
         
-        echo 'Application is working fine in dev environment'
+        echo 'Application is working fine in Dev environment'
         }
         }
     }
