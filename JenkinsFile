@@ -12,10 +12,10 @@ pipeline {
         echo 'Build is ready'
         }
         }
-        stage('Testing the build'){
+        stage('Testing the provided build'){
         steps{
 
-        echo 'Testing of the build is successfull'
+        echo 'Testing of the provided build is successfull'
         }
         }
         stage('Build deployment'){
@@ -27,7 +27,7 @@ pipeline {
         stage('Post Deployment Activities'){
         steps{
         
-        echo 'Application is working fine in production environment'
+        echo 'Application is working fine in prod environment'
         }
         }
     }
