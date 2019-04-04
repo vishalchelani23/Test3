@@ -9,7 +9,7 @@ pipeline {
         stage('Build the project'){
         steps{
         
-        echo 'Build is ready'
+        echo 'Build is ready and working fine'
         }
         }
         stage('Testing the provided build'){
@@ -21,7 +21,7 @@ pipeline {
         stage('Build deployment'){
         steps{
         
-        echo 'Build is successfully deployed'
+        echo 'Build is successfully deployed in production environment'
         }
         }
         stage('Post Deployment Activities'){
