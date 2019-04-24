@@ -15,7 +15,7 @@ pipeline {
         stage('Testing the provided build'){
         steps{
 
-        echo 'Testing of the provided build is successfull'
+        echo 'Testing of the provided build is successful'
         }
         }
         stage('Build deployment'){
